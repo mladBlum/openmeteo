@@ -1,4 +1,4 @@
-module github.com/innotechdevops/openmeteo
+module github.com/mladBlum/openmeteo
 
 go 1.20
 

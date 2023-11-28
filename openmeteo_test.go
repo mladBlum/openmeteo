@@ -2,8 +2,9 @@ package openmeteo_test
 
 import (
 	"fmt"
-	"github.com/innotechdevops/openmeteo"
 	"testing"
+
+	"github.com/mladBlum/openmeteo"
 )
 
 func TestOpenMeteo_Execute(t *testing.T) {

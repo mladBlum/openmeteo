@@ -1,8 +1,9 @@
 package openmeteo_test
 
 import (
-	"github.com/innotechdevops/openmeteo"
 	"testing"
+
+	"github.com/mladBlum/openmeteo"
 )
 
 func TestParameter_ToQuery(t *testing.T) {
@@ -13,7 +14,7 @@ func TestParameter_ToQuery(t *testing.T) {
 		Hourly:            &[]string{"temperature", "humidity"},
 		Elevation:         nil,
 		Daily:             &[]string{"temperature_max", "precipitation_sum"},
-		Current:		   &[]string{"temperature_2m", "relativehumidity_2m"},
+		Current:           &[]string{"temperature_2m", "relativehumidity_2m"},
 		CurrentWeather:    nil,
 		TemperatureUnit:   openmeteo.String("Celsius"),
 		WindSpeedUnit:     nil,
